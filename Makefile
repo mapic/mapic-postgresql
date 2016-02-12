@@ -5,6 +5,7 @@ EXTVERSION = 0.0.0dev
 SED = sed
 
 SPSCRIPTS = \
+  scripts/SP_ExtensionReload.sql \
   $(END)
 
 UPGRADABLE = \
