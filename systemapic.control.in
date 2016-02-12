@@ -1,0 +1,5 @@
+default_version = '@@VERSION@@'
+comment = 'Proved common systemapic functions.'
+superuser = true
+relocatable = false
+schema = systemapic

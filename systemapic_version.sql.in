@@ -1,0 +1,4 @@
+CREATE OR REPLACE FUNCTION sp_version()
+RETURNS text AS $$
+  SELECT '@@VERSION@@'::text;
+$$ language 'sql' IMMUTABLE STRICT;
